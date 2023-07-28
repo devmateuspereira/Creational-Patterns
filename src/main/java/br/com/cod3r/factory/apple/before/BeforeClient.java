@@ -7,13 +7,21 @@ public class BeforeClient {
     public static void main(String[] args) {
         BeforeClient client = new BeforeClient();
 
-        System.out.println("### Ordering an iPhone X");
-        IPhone iPhone = client.orderIPhone("X", "Standard");
-        System.out.println(iPhone);
+        System.out.println("\n### Ordering an iPhone 11");
+        IPhone iPhone11 = client.orderIPhone("11", "Standard");
+        System.out.println(iPhone11);
 
         System.out.println("\n\n### Ordering an iPhone 11 HighEnd");
-        IPhone iPhone2 = client.orderIPhone("11", "HighEnd");
-        System.out.println(iPhone2);
+        IPhone iPhone11Pro = client.orderIPhone("11", "HighEnd");
+        System.out.println(iPhone11Pro);
+
+        System.out.println("\n\n### Ordering an iPhone X");
+        IPhone iPhoneX = client.orderIPhone("X", "Standard");
+        System.out.println(iPhoneX);
+
+        System.out.println("\n\n### Ordering an iPhone X HighEnd");
+        IPhone iPhoneXSMax = client.orderIPhone("X", "HighEnd");
+        System.out.println(iPhoneXSMax);
     }
 
     private IPhone orderIPhone(String generation, String level) {
