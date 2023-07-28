@@ -1,6 +1,6 @@
-package main.java.br.com.cod3r.factory.apple.simple.factory;
+package br.com.cod3r.factory.apple.simple.factory;
 
-import main.java.br.com.cod3r.factory.apple.model.*;
+import br.com.cod3r.factory.apple.model.*;
 
 public class IPhoneSimpleFactory {
 

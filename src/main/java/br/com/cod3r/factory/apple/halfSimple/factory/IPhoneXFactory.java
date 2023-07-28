@@ -1,8 +1,8 @@
-package main.java.br.com.cod3r.factory.apple.halfSimple.factory;
+package br.com.cod3r.factory.apple.halfSimple.factory;
 
-import main.java.br.com.cod3r.factory.apple.model.IPhone;
-import main.java.br.com.cod3r.factory.apple.model.IPhoneX;
-import main.java.br.com.cod3r.factory.apple.model.IPhoneXSMax;
+import br.com.cod3r.factory.apple.model.IPhone;
+import br.com.cod3r.factory.apple.model.IPhoneX;
+import br.com.cod3r.factory.apple.model.IPhoneXSMax;
 
 public class IPhoneXFactory extends IPhoneFactory {
 

@@ -1,8 +1,8 @@
-package main.java.br.com.cod3r.factory.app.dbadapter.after;
+package br.com.cod3r.factory.app.dbadapter.after;
 
-import main.java.br.com.cod3r.factory.app.dbadapter.after.database.Database;
-import main.java.br.com.cod3r.factory.app.dbadapter.after.factory.OracleFactory;
-import main.java.br.com.cod3r.factory.app.dbadapter.after.factory.PostgresFactory;
+import br.com.cod3r.factory.app.dbadapter.after.database.Database;
+import br.com.cod3r.factory.app.dbadapter.after.factory.OracleFactory;
+import br.com.cod3r.factory.app.dbadapter.after.factory.PostgresFactory;
 
 public class AfterClient {
 

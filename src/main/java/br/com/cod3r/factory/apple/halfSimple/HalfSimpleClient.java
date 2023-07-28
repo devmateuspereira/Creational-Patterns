@@ -1,9 +1,9 @@
-package main.java.br.com.cod3r.factory.apple.halfSimple;
+package br.com.cod3r.factory.apple.halfSimple;
 
-import main.java.br.com.cod3r.factory.apple.halfSimple.factory.IPhone11Factory;
-import main.java.br.com.cod3r.factory.apple.halfSimple.factory.IPhoneFactory;
-import main.java.br.com.cod3r.factory.apple.halfSimple.factory.IPhoneXFactory;
-import main.java.br.com.cod3r.factory.apple.model.IPhone;
+import br.com.cod3r.factory.apple.halfSimple.factory.IPhone11Factory;
+import br.com.cod3r.factory.apple.halfSimple.factory.IPhoneFactory;
+import br.com.cod3r.factory.apple.halfSimple.factory.IPhoneXFactory;
+import br.com.cod3r.factory.apple.model.IPhone;
 
 public class HalfSimpleClient {
 

@@ -1,4 +1,4 @@
-package main.java.br.com.cod3r.factory.apple.model;
+package br.com.cod3r.factory.apple.model;
 
 public abstract class IPhone {
 

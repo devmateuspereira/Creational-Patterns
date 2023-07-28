@@ -1,6 +1,6 @@
-package main.java.br.com.cod3r.factory.app.dbadapter.before;
+package br.com.cod3r.factory.app.dbadapter.before;
 
-import main.java.br.com.cod3r.factory.app.dbadapter.before.database.OracleDB;
+import br.com.cod3r.factory.app.dbadapter.before.database.OracleDB;
 
 public class BeforeClient {
 

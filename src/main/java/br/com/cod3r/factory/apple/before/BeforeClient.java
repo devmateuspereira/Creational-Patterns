@@ -1,6 +1,6 @@
-package main.java.br.com.cod3r.factory.apple.before;
+package br.com.cod3r.factory.apple.before;
 
-import main.java.br.com.cod3r.factory.apple.model.*;
+import br.com.cod3r.factory.apple.model.*;
 
 public class BeforeClient {
 

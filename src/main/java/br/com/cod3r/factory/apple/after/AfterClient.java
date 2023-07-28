@@ -1,7 +1,7 @@
-package main.java.br.com.cod3r.factory.apple.after;
+package br.com.cod3r.factory.apple.after;
 
-import main.java.br.com.cod3r.factory.apple.after.factory.*;
-import main.java.br.com.cod3r.factory.apple.model.IPhone;
+import br.com.cod3r.factory.apple.after.factory.*;
+import br.com.cod3r.factory.apple.model.IPhone;
 
 public class AfterClient {
 

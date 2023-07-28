@@ -1,7 +1,7 @@
-package main.java.br.com.cod3r.factory.apple.simple;
+package br.com.cod3r.factory.apple.simple;
 
-import main.java.br.com.cod3r.factory.apple.model.IPhone;
-import main.java.br.com.cod3r.factory.apple.simple.factory.IPhoneSimpleFactory;
+import br.com.cod3r.factory.apple.model.IPhone;
+import br.com.cod3r.factory.apple.simple.factory.IPhoneSimpleFactory;
 
 public class SimpleClient {
 

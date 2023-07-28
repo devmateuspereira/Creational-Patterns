@@ -1,7 +1,7 @@
-package main.java.br.com.cod3r.factory.apple.after.factory;
+package br.com.cod3r.factory.apple.after.factory;
 
-import main.java.br.com.cod3r.factory.apple.model.IPhone;
-import main.java.br.com.cod3r.factory.apple.model.IPhone11Pro;
+import br.com.cod3r.factory.apple.model.IPhone;
+import br.com.cod3r.factory.apple.model.IPhone11Pro;
 
 public class IPhone11ProFactory extends IPhoneFactory {
 
