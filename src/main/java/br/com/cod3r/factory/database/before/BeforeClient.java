@@ -1,6 +1,6 @@
-package br.com.cod3r.factory.app.dbadapter.before;
+package br.com.cod3r.factory.database.before;
 
-import br.com.cod3r.factory.app.dbadapter.before.database.OracleDB;
+import br.com.cod3r.factory.database.before.model.OracleDB;
 
 public class BeforeClient {
 

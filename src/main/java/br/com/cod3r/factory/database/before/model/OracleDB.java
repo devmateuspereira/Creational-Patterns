@@ -1,4 +1,4 @@
-package br.com.cod3r.factory.app.dbadapter.before.database;
+package br.com.cod3r.factory.database.before.model;
 
 public class OracleDB {
 

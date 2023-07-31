@@ -1,8 +1,8 @@
-package br.com.cod3r.factory.app.dbadapter.after;
+package br.com.cod3r.factory.database.after;
 
-import br.com.cod3r.factory.app.dbadapter.after.database.Database;
-import br.com.cod3r.factory.app.dbadapter.after.factory.OracleFactory;
-import br.com.cod3r.factory.app.dbadapter.after.factory.PostgresFactory;
+import br.com.cod3r.factory.database.after.model.Database;
+import br.com.cod3r.factory.database.after.factory.OracleFactory;
+import br.com.cod3r.factory.database.after.factory.PostgresFactory;
 
 public class AfterClient {
 
