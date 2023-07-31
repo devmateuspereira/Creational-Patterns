@@ -28,7 +28,7 @@ public class ConnectionPool {
             }
         }
         if (avaiable == null) {
-            System.out.println("No Connections avaiable");
+            System.out.println("No Connections available");
             return null;
         }
         avaiable.setInUse(true);
