@@ -7,16 +7,19 @@ import br.com.cod3r.abstractfactory.apple.model.iphone.IPhoneXSMax;
 
 public class IPhoneXFactory extends IPhoneFactory {
 
-	public IPhoneXFactory(CountryRulesAbstractFactory rules) {
-		super(rules);
-	}
+    public IPhoneXFactory(CountryRulesAbstractFactory rules) {
+        super(rules);
+    }
 
-	public IPhone createIPhone(String level) {
-		if(level.equals("standard")) {
-			return new IPhoneX(rules);
-		} else if(level.equals("highEnd")) {
-			return new IPhoneXSMax(rules);
-		} else return null;
-	}
+    @Override
+    public IPhone createIPhone(String level) {
+        if (level.equals("Standard")) {
+            return new IPhoneX(rules);
+        } else if (level.equals("HighEnd")) {
+            return new IPhoneXSMax(rules);
+        } else {
+            return null;
+        }
+    }
 
 }
