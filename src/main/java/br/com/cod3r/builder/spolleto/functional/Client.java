@@ -14,8 +14,8 @@ public class Client {
         Pasta p2 = new Pasta.Builder(Size.SMALL).withToppings("Bacon", "Broccoli").withSauces("Tomato").withCheese().now();
         System.out.println(p2);
 
-        Pasta p3 = new Pasta.Builder(Size.STANDARD)
-                .withToppings("Garlic").withSauces("Funghi", "Cheese").withCheese().withPepper().now();
+        Pasta p3 = new Pasta.Builder(Size.STANDARD).withToppings("Garlic").withSauces("Fungi", "Cheese").withCheese().withPepper().now();
         System.out.println(p3);
     }
+
 }
